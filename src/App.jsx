@@ -33,6 +33,10 @@ export default function App() {
           <h4>Mesaj</h4>
           <textarea name="" id="" rows={10}></textarea>
         </div>
+        <div className='check'>
+          <input type="checkbox" name="" id="" />
+          <h4 htmlFor="">Ekip tarafından benimle iletişime geçilmesini kabul ediyorum *</h4>
+        </div>
       </form>
     </>
   )
