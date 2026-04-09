@@ -36,7 +36,9 @@ form h1 {
   font-size: 18px;
   height: 50px;
   margin-bottom: 24px;
+  border: 1px solid #86A2A5;
   border-radius: 5px;
+  padding-left: 10px;
 }
 
 .query-type h4 {
@@ -46,7 +48,7 @@ form h1 {
 }
 
 .query-types {
-  border: 1px solid black;
+  border: 1px solid #86A2A5;
   border-radius: 5px;
   padding-top: 12px;
   padding-bottom: 12px;
