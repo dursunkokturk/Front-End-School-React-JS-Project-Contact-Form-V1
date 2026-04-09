@@ -37,6 +37,7 @@ export default function App() {
           <input type="checkbox" name="" id="" />
           <h4 htmlFor="">Ekip tarafından benimle iletişime geçilmesini kabul ediyorum *</h4>
         </div>
+        <button>Gönder</button>
       </form>
     </>
   )
