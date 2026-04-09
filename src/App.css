@@ -133,12 +133,23 @@ button {
     margin-inline: 39px;
   }
 
-  .query-options{
+  .query-options {
     display: flex;
     gap: 16px;
   }
 
   .query-types {
     flex: 1;
+  }
+}
+
+@media(width >1109px) {
+  .out-color {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+  form {
+    margin-inline: 260px;
   }
 }
