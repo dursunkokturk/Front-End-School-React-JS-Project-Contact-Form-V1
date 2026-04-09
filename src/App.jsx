@@ -18,6 +18,17 @@ export default function App() {
           <h4>E-Mail Adresiniz</h4>
           <input type="text" placeholder='E-Mail Adresiniz Giriniz' />
         </div>
+        <div className='query-type'>
+          <h4>Sorgu Türü</h4>
+          <h4>
+            <input type="radio" />
+            Genel Sorular
+          </h4>
+          <h4>
+            <input type="radio" />
+            Destek Talebi
+          </h4>
+        </div>
       </form>
     </>
   )
