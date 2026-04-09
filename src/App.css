@@ -7,3 +7,8 @@
 body {
   font-family: Karla;
 }
+
+form {
+  margin-top: 32px;
+  margin-inline: 16px;
+}
