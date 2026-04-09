@@ -29,6 +29,10 @@ export default function App() {
             Destek Talebi
           </h4>
         </div>
+        <div>
+          <h4>Mesaj</h4>
+          <textarea name="" id="" rows={10}></textarea>
+        </div>
       </form>
     </>
   )
