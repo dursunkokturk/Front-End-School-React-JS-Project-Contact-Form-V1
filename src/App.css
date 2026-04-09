@@ -117,11 +117,11 @@ button {
   .firstname-and-lastname {
     display: flex;
     flex-direction: row;
+    gap: 16px;
   }
 
   .firstname-and-lastname .user-information {
     flex: 1;
-    /* 👈 eşit bölüşür */
   }
 
   .out-color {
@@ -129,7 +129,16 @@ button {
     padding-bottom: 128px;
   }
 
-  form{
+  form {
     margin-inline: 39px;
+  }
+
+  .query-options{
+    display: flex;
+    gap: 16px;
+  }
+
+  .query-types {
+    flex: 1;
   }
 }

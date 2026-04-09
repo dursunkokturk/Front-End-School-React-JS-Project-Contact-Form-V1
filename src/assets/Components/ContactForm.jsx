@@ -23,14 +23,16 @@ export default function ContactForm() {
             </div>
             <div className='query-type'>
               <h4>Sorgu Türü</h4>
-              <h4 className='query-types'>
-                <input type="radio" />
-                Genel Sorular
-              </h4>
-              <h4 className='query-types'>
-                <input type="radio" />
-                Destek Talebi
-              </h4>
+              <div className="query-options">
+                <h4 className='query-types'>
+                  <input type="radio" />
+                  Genel Sorular
+                </h4>
+                <h4 className='query-types'>
+                  <input type="radio" />
+                  Destek Talebi
+                </h4>
+              </div>
             </div>
             <div className='message'>
               <h4>Mesaj</h4>
