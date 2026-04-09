@@ -8,13 +8,13 @@ body {
   font-family: Karla;
 }
 
-.out-color{
+.out-color {
   background-color: #E0F1E8;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.in-color{
+.in-color {
   margin-inline: 24px;
 }
 
@@ -111,4 +111,25 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media(width > 767px) {
+  .firstname-and-lastname {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .firstname-and-lastname .user-information {
+    flex: 1;
+    /* 👈 eşit bölüşür */
+  }
+
+  .out-color {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+  form{
+    margin-inline: 39px;
+  }
 }

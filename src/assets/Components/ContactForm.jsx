@@ -7,13 +7,15 @@ export default function ContactForm() {
         <form action="">
           <div className='in-color'>
             <h1>İletişim Formu</h1>
-            <div className='user-information'>
-              <h4>Adınız</h4>
-              <input type="text" placeholder='Adınızı Giriniz' />
-            </div>
-            <div className='user-information'>
-              <h4>Soyadınız</h4>
-              <input type="text" placeholder='Soyadınızı Giriniz' />
+            <div className="firstname-and-lastname">
+              <div className='user-information'>
+                <h4>Adınız</h4>
+                <input type="text" placeholder='Adınızı Giriniz' />
+              </div>
+              <div className='user-information'>
+                <h4>Soyadınız</h4>
+                <input type="text" placeholder='Soyadınızı Giriniz' />
+              </div>
             </div>
             <div className='user-information'>
               <h4>E-Mail Adresiniz</h4>
