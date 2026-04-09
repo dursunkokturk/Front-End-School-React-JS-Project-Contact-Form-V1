@@ -8,8 +8,20 @@ body {
   font-family: Karla;
 }
 
+.out-color{
+  background-color: #E0F1E8;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.in-color{
+  margin-inline: 24px;
+}
+
 form {
-  margin-top: 32px;
+  background-color: white;
+  padding-top: 32px;
+  border-radius: 5px;
   margin-inline: 16px;
 }
 
@@ -69,6 +81,12 @@ form h1 {
   margin-bottom: 8px;
 }
 
+.message textarea {
+  width: 100%;
+  border: 1px solid #86A2A5;
+  padding-left: 10px;
+}
+
 .check {
   display: flex;
   flex-direction: row;
@@ -84,7 +102,7 @@ form h1 {
 button {
   font-size: 18px;
   color: #FFFFFF;
-  padding: 10px 130px;
+  padding: 10px 107px;
   margin-bottom: 56px;
   background-color: #0C7D69;
 }
