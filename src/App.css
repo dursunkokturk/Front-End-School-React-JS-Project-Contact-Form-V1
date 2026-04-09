@@ -38,3 +38,51 @@ form h1 {
   margin-bottom: 24px;
   border-radius: 5px;
 }
+
+.query-type h4 {
+  font-weight: 400;
+  color: #2A4144;
+  margin-bottom: 16px;
+}
+
+.query-types {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.query-types input {
+  margin-left: 24px;
+  margin-right: 12px;
+}
+
+.message {
+  margin-bottom: 40PX;
+}
+
+.message h4 {
+  color: #2A4144;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.check input {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+button {
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 10px 130px;
+  margin-bottom: 56px;
+  background-color: #0C7D69;
+}
