@@ -10,6 +10,10 @@ export default function App() {
           <h4>Adınız</h4>
           <input type="text" placeholder='Adınızı Giriniz' />
         </div>
+        <div className='user-information'>
+          <h4>Soyadınız</h4>
+          <input type="text" placeholder='Soyadınızı Giriniz' />
+        </div>
       </form>
     </>
   )
