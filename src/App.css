@@ -22,7 +22,7 @@ form {
   background-color: white;
   padding-top: 32px;
   border-radius: 5px;
-  margin-inline: 16px;
+  margin-inline: 0px;
 }
 
 form h1 {
@@ -111,6 +111,63 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.success-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: fit-content;
+  background-color: #2A4144;
+  border-radius: 10px;
+  padding: 40px 32px;
+  margin-inline: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 10;
+}
+
+.success-message h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.success-message h4 {
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.success-message p {
+  font-size: 16px;
+  color: #2A4144;
+  line-height: 1.6;
+}
+
+.success-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.success-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.form-wrapper {
+  position: relative;
+  margin-inline: 16px;
 }
 
 @media(width > 767px) {
