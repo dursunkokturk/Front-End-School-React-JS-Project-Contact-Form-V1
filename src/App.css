@@ -186,6 +186,18 @@ button {
     padding-bottom: 128px;
   }
 
+  .success-message {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 420px;
+    padding: 20px;
+
+    z-index: 10;
+  }
+
   form {
     margin-inline: 39px;
   }
