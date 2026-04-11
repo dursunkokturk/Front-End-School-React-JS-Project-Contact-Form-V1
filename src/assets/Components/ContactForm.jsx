@@ -47,24 +47,24 @@ export default function ContactForm() {
               <div className='query-type'>
                 <h4>Sorgu Türü</h4>
                 <div className="query-options">
-                  <h4 className='query-types'>
-                    <input type="radio" />
+                  <label className='query-types'>
+                    <input type="radio" name='query'/>
                     Genel Sorular
-                  </h4>
-                  <h4 className='query-types'>
-                    <input type="radio" />
+                  </label>
+                  <label className='query-types'>
+                    <input type="radio" name='query'/>
                     Destek Talebi
-                  </h4>
+                  </label>
                 </div>
               </div>
               <div className='message'>
                 <h4>Mesaj</h4>
                 <textarea name="" id="" rows={10}></textarea>
               </div>
-              <div className='check'>
+              <label className='check'>
                 <input type="checkbox" name="" id="" />
                 <h4>Ekip tarafından benimle iletişime geçilmesini kabul ediyorum *</h4>
-              </div>
+              </label>
               <button type='submit'>Gönder</button>
             </div>
           </form>

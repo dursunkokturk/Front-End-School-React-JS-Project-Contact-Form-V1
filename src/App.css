@@ -224,7 +224,34 @@ button {
 
   .user-information input,
   .query-types,
+  .check,
+  textarea,
   button {
     cursor: pointer;
+  }
+
+  .user-information input:focus,
+  textarea:focus {
+    cursor: text;
+  }
+  .query-types:hover {
+    border-color: #0C7D69;
+  }
+
+  .query-types:has(input[type="radio"]:checked) {
+    border: 2px solid #0C7D69;
+    background-color: #E0F1E8;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid #0C7D69;
+    box-shadow: 0 0 0 3px rgba(12, 125, 105, 0.2);
+  }
+
+  button:has:checked {
+    border: 2px solid #0C7D69;
+    background-color: #E0F1E8;
   }
 }
