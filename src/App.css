@@ -221,4 +221,10 @@ button {
   form {
     margin-inline: 260px;
   }
+
+  .user-information input,
+  .query-types,
+  button {
+    cursor: pointer;
+  }
 }
